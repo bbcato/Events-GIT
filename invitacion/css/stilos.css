@@ -18,3 +18,12 @@ nav #cont_nav .color_bc{background:#313842}
 #Cont_Dedicatoria_inv #titulo{color:#656668;font-family:Raleway-Light;font-size:26px;margin:0;padding:10px 10px 10px 0}
 #Cont_Foto_inv{border-bottom:4px solid #1a2220;margin:0 auto;width:90%;}
 #Cont_Foto_inv img{padding:10px;text-align:center}
+#Cont_Datos_Salon_inv{margin:0 auto;width:90%;}
+#Cont_Datos_Salon_inv #Name_Salon{color:#fff;font-family:Raleway-Light;font-size:35px;margin:0}
+#Cont_Datos_Salon_inv #Direccion_Salon{color:#fff;font-family:Raleway-Light;font-size:18px;margin:0}
+#Cont_Datos_Salon_inv #cont_tel_salon{padding:10px 10px 10px 0;}
+#Cont_Datos_Salon_inv #cont_tel_salon figure{padding:0}
+#Cont_Datos_Salon_inv #cont_tel_salon .object_tel_salon{display:inline-block}
+#Cont_Datos_Salon_inv #cont_tel_salon #Tel_Salon{color:#fff;font-family:Raleway-Light;font-size:15px;margin-left:0}
+#Cont_Mapa_inv{border-bottom:4px solid #1a2220;margin:0 auto;width:80%;}
+#Cont_Mapa_inv iframe{border:none;padding:20px 0 20px 0}
