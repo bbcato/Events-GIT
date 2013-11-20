@@ -1,18 +1,19 @@
 @font-face{font-family:Raleway-Light;src:url("font/Raleway/Raleway-Light.ttf") format(truetype)}
 body{background:#313842}
-nav{background:#6bb198;}
+nav{background:#6bb198;margin:0;width:100%;}
 nav #cont_nav{margin:0 auto;width:90%;}
 nav #cont_nav .box_btn_menu{display:inline-block;text-align:center;width:23%}
 nav #cont_nav .color_bc{background:#313842}
-#Cont_Datos_inv{margin:0 auto;width:90%;}
-#Cont_Datos_inv #cont_fecha_inv{border-bottom:4px solid #1a2220;}
-#Cont_Datos_inv #cont_fecha_inv figure{padding:20px}
+#Cont_btn_confi_asis_ini{margin:0 auto;width:90%;}
+#Cont_btn_confi_asis_ini button{background:#e1df44;font-family:Raleway-Light;font-size:22px;margin:20px;padding:8px}
+#Cont_Datos_inv{border-bottom:4px solid #1a2220;margin:0 auto;width:90%;}
+#Cont_Datos_inv #cont_fecha_inv figure{padding:0}
 #Cont_Datos_inv #cont_fecha_inv .object_fecha_inv{display:inline-block}
-#Cont_Datos_inv #cont_fecha_inv #Fecha_evento{color:#fff;font-family:Raleway-Light;font-size:16px;margin:0;margin-left:5px}
+#Cont_Datos_inv #cont_fecha_inv #Fecha_evento{color:#fff;font-family:Raleway-Light;font-size:11px;margin-left:0}
 #Cont_Datos_inv #Name_principal{color:#fff;font-family:Raleway-Light;font-size:38px;margin:0}
 #Cont_Datos_inv #Type_evento{color:#e1df44;font-family:Raleway-Light;font-size:18px;margin:0}
 #Cont_Dedicatoria_inv{border-bottom:4px solid #1a2220;margin:0 auto;width:90%;}
 #Cont_Dedicatoria_inv #texto{color:#fff;font-family:Raleway-Light;font-size:16px;margin:0;padding-bottom:10px}
 #Cont_Dedicatoria_inv #titulo{color:#656668;font-family:Raleway-Light;font-size:26px;margin:0;padding:10px 10px 10px 4px}
-#Cont_btn_confi_asis_ini{margin:0 auto;width:90%;}
-#Cont_btn_confi_asis_ini button{background:#e1df44;font-family:Raleway-Light;font-size:25px;margin:20px;padding:8px}
+#Cont_Foto_inv{border-bottom:4px solid #1a2220;margin:0 auto;width:90%;}
+#Cont_Foto_inv img{padding:10px;text-align:center}
