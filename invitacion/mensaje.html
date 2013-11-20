@@ -37,6 +37,15 @@
 </head>
 
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  	var js, fjs = d.getElementsByTagName(s)[0];
+  	if (d.getElementById(id)) return;
+  	js = d.createElement(s); js.id = id;
+  	js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+  	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
 	<nav>
 		<div id="cont_nav">
 			<div class="box_btn_menu">
@@ -68,6 +77,14 @@
 		</div>
 
 	</section>
+
+	<section id="Box_Mensaje_inv">
+		<div id="Cont_Box_Mensaje">
+			<div class="fb-comments" data-href="http://dh-gc.com/events/invitacion/mensaje.html" data-width="300" data-numposts="5" data-colorscheme="dark"></div>
+
+		</div>
+
+	</section>	
 
 
 </body>
