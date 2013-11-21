@@ -50,20 +50,15 @@ if (!isset($_POST['Mail'])) {
   
 <?php
 }else{
-  $mensaje="Formulario Cotizacion Clientes / Events";
-  $mensaje.= "\nNombre contacto: ". $_POST['Nombre'];
-  $mensaje.= "\nTelefono contacto: ".$_POST['Telefono'];
-  $mensaje.= "\nEmail: ". $_POST['Mail'];
-  $mensaje.= "\nFecha del evento: ".$_POST['Fevento'];
-  $mensaje.= "\nTipo de evento: ". $_POST['Tevento'];
-  $mensaje.= "\nAlquiler de vestidos: ".$_POST['Avestidos'];
-  $mensaje.= "\nNumero de invitados: ". $_POST['Ninvitados'];
-  $mensaje.= "\nComentarios: ".$_POST['Comentario'];
+  $mensaje="Lista asistencia de mi fiesta / Events";
+  $mensaje.= "\nNombre y Apellido familia: ". $_POST['Nombre'];
+  $mensaje.= "\nConfirmacion Asistencia: ".$_POST['Mail'];
+  
   
 
   $destino= "dhbairon@gmail.com";
   $remitente = $_POST['Mail'];
-  $asunto = "Cotizacion evento: ".$_POST['Nombre'];
+  $asunto = "Asistencia evento: ".$_POST['Nombre'];
   mail($destino,$asunto,$mensaje,"FROM: $remitente");
 ?>
 
