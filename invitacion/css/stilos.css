@@ -1,5 +1,7 @@
 @font-face{font-family:Raleway-Light;src:url("font/Raleway/Raleway-Light.ttf") format(truetype)}
 body{background:#313842}
+footer{background:#6bb198;text-align:center;}
+footer p{color:#4d7e71;font-family:Raleway-Light;font-size:14px;padding:20px 0 20px 0}
 nav{background:#6bb198;margin:0;width:100%;}
 nav #cont_nav{margin:0 auto;width:90%;}
 nav #cont_nav .box_btn_menu{display:inline-block;text-align:center;width:23%}
@@ -31,3 +33,8 @@ nav #cont_nav .color_bc{background:#313842}
 #Cont_form{margin:0 auto;width:90%;}
 #Cont_form form{color:#000;}
 #Cont_form form .campos-formulario{background:#e1df44;border:none;font-family:Raleway-Light;font-size:20px;padding:0;width:75%}
+#Descripcion_msn_send{padding:20px 0 20px 0;}
+#Descripcion_msn_send #Cont_Description_msn_send{margin:0 auto;width:90%;}
+#Descripcion_msn_send #Cont_Description_msn_send p{color:#fff;font-family:Raleway-Light;font-size:20px}
+#Descripcion_msn_send #Cont_Description_msn_send button{background:#e1df44;}
+#Descripcion_msn_send #Cont_Description_msn_send button a{border:none;color:#313842;font-family:Raleway-Light;font-size:20px;padding:10px}
