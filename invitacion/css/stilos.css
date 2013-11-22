@@ -29,4 +29,5 @@ nav #cont_nav .color_bc{background:#313842}
 #Cont_Mapa_inv iframe{border:none;padding:20px 0 20px 0}
 #Cont_Box_Mensaje{margin:0 auto;width:90%}
 #Cont_form{margin:0 auto;width:90%;}
-#Cont_form form .campos-formulario{background:#000;border:none;font-family:Raleway-Light;font-size:20px;padding:0;width:75%}
+#Cont_form form{color:#000;}
+#Cont_form form .campos-formulario{background:#e1df44;border:none;font-family:Raleway-Light;font-size:20px;padding:0;width:75%}

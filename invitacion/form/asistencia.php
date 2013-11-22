@@ -52,7 +52,8 @@ if (!isset($_POST['Mail'])) {
 }else{
   $mensaje="Lista asistencia de mi fiesta / Events";
   $mensaje.= "\nNombre y Apellido familia: ". $_POST['Nombre'];
-  $mensaje.= "\nConfirmacion Asistencia: ".$_POST['Mail'];
+  $mensaje.= "\nConfirmacion Asistencia: ".$_POST['Confirmacion'];
+  $mensaje.= "\nCorreo electronico: ".$_POST['Mail'];
   
   
 
