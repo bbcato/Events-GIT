@@ -1,0 +1,15 @@
+@font-face{font-family:Raleway-Light;src:url("font/Raleway/Raleway-Light.ttf") format(truetype)}
+body{background:#edeeed}
+#cont_cabezote{margin:0 auto;width:90%;}
+#cont_cabezote #logo{padding:20px}
+#cont_footer{margin:0 auto;width:90%;}
+#cont_footer #cont_dos_footer{text-align:center;width:95%}
+#cont_footer button{background:#edeeed;border:none;font-family:Raleway-Light;font-size:16px;}
+#cont_footer button a{color:#cdcecd;text-decoration:none}
+#cont_footer p{font-family:Raleway-Light;font-size:12px;color:#cdcecd}
+#cont_img_principal{margin:0 auto;width:90%;}
+#cont_img_principal #cont_dos_img_principal{text-align:center;}
+#cont_img_principal #cont_dos_img_principal p{color:#cdcecd;font-family:Raleway-Light;font-size:15px}
+#cont_menu{margin:0 auto;width:90%;}
+#cont_menu button{background:#edeeed;border:none;font-family:Raleway-Light;font-size:60px;padding:0 0 25px 0;}
+#cont_menu button a{color:#77c964;text-decoration:none}
