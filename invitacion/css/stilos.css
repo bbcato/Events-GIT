@@ -38,3 +38,7 @@ nav #cont_nav .color_bc{background:#313842}
 #Descripcion_msn_send #Cont_Description_msn_send p{color:#fff;font-family:Raleway-Light;font-size:20px}
 #Descripcion_msn_send #Cont_Description_msn_send button{background:#e1df44;}
 #Descripcion_msn_send #Cont_Description_msn_send button a{border:none;color:#313842;font-family:Raleway-Light;font-size:20px;padding:10px}
+#organizador #cont_organizador{margin:0 auto;text-align:center;width:90%;}
+#organizador #cont_organizador button{color:#313842;background:#e1df44;font-family:Raleway-Light;font-size:22px;margin:20px;padding:8px;text-decoration:none}
+#organizador #cont_organizador #title_organizador{color:#fff;font-family:Raleway-Light;font-size:30px}
+#organizador #cont_organizador #subtitle_organizador{color:#fff;font-family:Raleway-Light;font-size:20px}
